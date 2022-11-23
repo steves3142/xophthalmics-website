@@ -27,11 +27,11 @@ function Header() {
         //   <p className="font-serif">Buy</p>
 
         // </header>
-        <Disclosure as="nav" className="bg-gray-800">
+        <Disclosure as="nav" className="bg-black">
             {({ open }) => (
                 <>
                     <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-                        <div className="relative flex h-16 items-center justify-between">
+                        <div className="relative flex h-24 items-center justify-between">
                             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                                 {/* Mobile menu button*/}
                                 <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
@@ -46,13 +46,8 @@ function Header() {
                             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                                 <div className="flex flex-shrink-0 items-center">
                                     <img
-                                        className="block h-8 w-auto lg:hidden"
-                                        src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-                                        alt="Your Company"
-                                    />
-                                    <img
                                         className="hidden h-8 w-auto lg:block"
-                                        src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                                        src="https://xenon-vr.com/wp-content/uploads/2022/03/New-logo_Xenon-VR.2.png"
                                         alt="Your Company"
                                     />
                                 </div>
