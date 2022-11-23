@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Header from "../components/Header";
+import Hero from "../components/Hero";
 import Footer from "../components/Footer";
 
 const Home: NextPage = () => {
@@ -12,6 +13,11 @@ const Home: NextPage = () => {
 
       {/* Header/Nav */}
       <Header/>
+
+      {/* Hero */}
+
+      <Hero/>
+
       {/*About */}
 
       {/* Footer */}
