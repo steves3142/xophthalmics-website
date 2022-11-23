@@ -100,7 +100,7 @@ function Hero() {
             <div className="sm:text-center lg:text-left">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
                 <span className="block xl:inline">We Created A Headset That Brings Eye Exams</span>{' '}
-                <span className="block text-blue-600 xl:inline">Right To Your Patients</span>
+                <span className="block text-sky-500 xl:inline">Right To Your Patients</span>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
               Xenon-VR created smart ophthalmic equipment for the 21st century. The future of vision care is wearable technology merged with today’s vision diagnostic standards.
