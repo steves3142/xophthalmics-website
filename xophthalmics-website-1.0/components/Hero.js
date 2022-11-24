@@ -1,14 +1,9 @@
-import React from "react"; 
+import React from "react";
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
-const navigation = [
-    { name: 'Product', href: '#' },
-    { name: 'Features', href: '#' },
-    { name: 'Marketplace', href: '#' },
-    { name: 'Company', href: '#' },
-  ]
+
 
 function Hero() {
   return (
@@ -73,17 +68,6 @@ function Hero() {
                       </Popover.Button>
                     </div>
                   </div>
-                  <div className="space-y-1 px-2 pt-2 pb-3">
-                    {navigation.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900"
-                      >
-                        {item.name}
-                      </a>
-                    ))}
-                  </div>
                   <a
                     href="#"
                     className="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-indigo-600 hover:bg-gray-100"
@@ -97,26 +81,26 @@ function Hero() {
 
           <main className="mx-auto mt-10 max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
-              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
+              <h1 className="text-4xl font-bold font-serif tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
                 <span className="block xl:inline">We Created A Headset That Brings Eye Exams</span>{' '}
                 <span className="block text-sky-500 xl:inline">Right To Your Patients</span>
               </h1>
-              <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
-              Xenon-VR created smart ophthalmic equipment for the 21st century. The future of vision care is wearable technology merged with today’s vision diagnostic standards.
+              <p className="mt-3 text-base font-serif text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
+                Xenon-VR created smart ophthalmic equipment for the 21st century. The future of vision care is wearable technology merged with today’s vision diagnostic standards.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
                     href="#"
-                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-teal-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg"
+                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-teal-600 px-8 py-3 text-base font-serif text-white hover:bg-sky-200 md:py-4 md:px-10 md:text-lg"
                   >
-                    Get started
+                    Learn More
                   </a>
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
                     href="#"
-                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-teal-100 px-8 py-3 text-base font-medium text-green-700 hover:bg-indigo-200 md:py-4 md:px-10 md:text-lg"
+                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-teal-400 px-8 py-3 text-base font-serif text-white hover:bg-sky-200 md:py-4 md:px-10 md:text-lg"
                   >
                     Live demo
                   </a>
@@ -132,6 +116,12 @@ function Hero() {
           src="https://xenon-vr.com/wp-content/uploads/2022/08/Headset_3.png"
           alt=""
         />
+      </div>
+
+      <div className="relative overflow-hidden bg-white">
+        <video autoPlay>
+          <source src="https://www.youtube.com/embed/oDU81gR_vkY"/>
+        </video>
       </div>
     </div>
   )

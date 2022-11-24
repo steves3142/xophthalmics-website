@@ -3,6 +3,7 @@ import Head from "next/head";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Footer from "../components/Footer";
+import Testimonial from "../components/Testimonials"; 
 
 const Home: NextPage = () => {
   return (
@@ -18,7 +19,8 @@ const Home: NextPage = () => {
 
       <Hero/>
 
-      {/*About */}
+      {/*Testimonials */}
+      <Testimonial/>
 
       {/* Footer */}
       <Footer/>
