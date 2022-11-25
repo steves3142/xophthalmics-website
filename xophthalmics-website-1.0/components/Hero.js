@@ -119,9 +119,17 @@ function Hero() {
       </div>
 
       <div className="relative overflow-hidden bg-white">
-        <video autoPlay>
-          <source src="https://www.youtube.com/embed/oDU81gR_vkY"/>
-        </video>
+        {/* <iframe
+          src="https://assets-global.website-files.com/5a0cbe08f1138d000147a9d4/62e126bc84666de603e8c96d_ButterflyNetwork_Stethoscope_HomepageHero_16x9_220727-transcode.mp4"
+          >
+          </iframe> */}
+          <iframe 
+          className="h-100 w-full object-cover sm:h-72 md:h-96 lg:h-full lg:w-full"
+          src="https://assets-global.website-files.com/5a0cbe08f1138d000147a9d4/62e126bc84666de603e8c96d_ButterflyNetwork_Stethoscope_HomepageHero_16x9_220727-transcode.mp4"
+          frameborder="0" 
+          allow="autoplay" 
+          allowfullscreen>
+          </iframe>
       </div>
     </div>
   )
