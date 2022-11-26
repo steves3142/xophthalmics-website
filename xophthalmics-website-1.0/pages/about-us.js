@@ -1,10 +1,10 @@
 import React from 'react'
 import Link from 'next/link'
 
-export default function Solutions() {
+export default function About() {
   return (
     <div>
-        Solutions
+        About Us
         <h2>
             <Link href="/">Back to Home</Link>
         </h2>

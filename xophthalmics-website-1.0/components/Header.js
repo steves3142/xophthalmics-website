@@ -1,14 +1,15 @@
 import React from 'react'
 import { Fragment } from 'react'
+import Link from "next/link"; 
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline"
 
 const navigation = [
-    { name: 'Solutions', href: '#', current: true },
-    { name: 'News', href: '#', current: false },
-    { name: 'About Us', href: '#', current: false },
-    { name: 'Contact', href: '#', current: false },
-    { name: 'Buy', href: '#', current: false },
+    { name: 'Solutions', href: "http://localhost:3000/solutions", current: false },
+    { name: 'News', href: "http://localhost:3000/news", current: true },
+    { name: 'About Us', href: "http://localhost:3000/about-us", current: false },
+    { name: 'Contact', href: "http://localhost:3000/contact", current: false },
+    { name: 'Buy', href: "http://localhost:3000/buy", current: false },
 ]
 
 function classNames(...classes) {
@@ -19,12 +20,6 @@ function classNames(...classes) {
 function Header() {
     return (
         // <header className="sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center">
-
-        //   <p className="font-serif">Solutions</p>
-        //   <p className="font-serif">News</p>
-        //   <p className="font-serif">About Us</p>
-        //   <p className="font-serif">Contact</p>
-        //   <p className="font-serif">Buy</p>
 
         // </header>
         <Disclosure as="nav" className="bg-black">
