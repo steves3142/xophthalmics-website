@@ -14,7 +14,6 @@ const stats = [
 export default function Solutions() {
   return (
     <div>
-      Solutions
       <h2>
         <Link href="/">Back to Home</Link>
       </h2>
