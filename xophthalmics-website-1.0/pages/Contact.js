@@ -352,7 +352,7 @@ export default function Contact() {
                                         </div>
                                         <h3 className="text-lg font-medium text-white">Contact information</h3>
                                         <p className="mt-6 max-w-3xl text-base text-teal-50">
-                                            Questions about products, partnerships or inquiries can be expect a reply within a few days. For immediate answers, most questions can be answered using our chat bot. 
+                                            General inquiries about products, important dates or partnerships can be expect a reply within a few days. For immediate answers, most questions can be answered using our chat bot and visiting us on social media. 
                                         </p>
                                         <dl className="mt-8 space-y-6">
                                             <dt>
