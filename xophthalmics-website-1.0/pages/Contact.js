@@ -96,7 +96,6 @@ const footerNavigation = {
 export default function Contact() {
     return (
         <div>
-            Contact
             <h2>
                 <Link href="/">Back to Home</Link>
             </h2>

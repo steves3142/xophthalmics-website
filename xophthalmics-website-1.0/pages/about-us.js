@@ -128,7 +128,6 @@ const sales = [
 export default function About() {
   return (
     <div>
-      About Us
       <h2>
         <Link href="/">Back to Home</Link>
       </h2>
