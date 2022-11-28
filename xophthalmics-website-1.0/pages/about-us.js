@@ -75,7 +75,7 @@ const medical = [
     name: 'Dr. Kyle Hoedebeck, MD, MBA',
     role: 'Medical Director',
     imageUrl:
-      'https://xenon-vr.com/wp-content/uploads/2022/03/Michelle-1-500x500.jpg',
+      'https://xenon-vr.com/wp-content/uploads/2022/03/kyle.png',
     twitterUrl: '#',
     linkedinUrl: '#',
   },
@@ -158,7 +158,7 @@ export default function About() {
                     <div className="space-y-2">
                       <div className="space-y-1 text-lg font-medium leading-6">
                         <h3>{person.name}</h3>
-                        <p className="text-indigo-600">{person.role}</p>
+                        <p className="text-cyan-600">{person.role}</p>
                       </div>
                       <ul role="list" className="flex space-x-5">
                         <li>
@@ -184,6 +184,16 @@ export default function About() {
                       </ul>
                     </div>
                   </div>
+
+                  <div className="relative">
+                    <div className="absolute inset-0 flex items-center" aria-hidden="true">
+                      <div className="w-full border-t border-gray-300" />
+                    </div>
+                    <div className="relative flex justify-start">
+                      <span className="bg-white pr-3 text-lg font-medium text-gray-900"></span>
+                    </div>
+                  </div>
+
                 </li>
               ))}
             </ul>
@@ -213,7 +223,7 @@ export default function About() {
                     <div className="space-y-2">
                       <div className="space-y-1 text-lg font-medium leading-6">
                         <h3>{person.name}</h3>
-                        <p className="text-indigo-600">{person.role}</p>
+                        <p className="text-cyan-600">{person.role}</p>
                       </div>
                       <ul role="list" className="flex space-x-5">
                         <li>
@@ -239,6 +249,16 @@ export default function About() {
                       </ul>
                     </div>
                   </div>
+
+                  <div className="relative">
+                    <div className="absolute inset-0 flex items-center" aria-hidden="true">
+                      <div className="w-full border-t border-gray-300" />
+                    </div>
+                    <div className="relative flex justify-start">
+                      <span className="bg-white pr-3 text-lg font-medium text-gray-900"></span>
+                    </div>
+                  </div>
+
                 </li>
               ))}
             </ul>
@@ -268,7 +288,7 @@ export default function About() {
                     <div className="space-y-2">
                       <div className="space-y-1 text-lg font-medium leading-6">
                         <h3>{person.name}</h3>
-                        <p className="text-indigo-600">{person.role}</p>
+                        <p className="text-cyan-600">{person.role}</p>
                       </div>
                       <ul role="list" className="flex space-x-5">
                         <li>
@@ -294,6 +314,16 @@ export default function About() {
                       </ul>
                     </div>
                   </div>
+
+                  <div className="relative">
+                    <div className="absolute inset-0 flex items-center" aria-hidden="true">
+                      <div className="w-full border-t border-gray-300" />
+                    </div>
+                    <div className="relative flex justify-start">
+                      <span className="bg-white pr-3 text-lg font-medium text-gray-900"></span>
+                    </div>
+                  </div>
+
                 </li>
               ))}
             </ul>
