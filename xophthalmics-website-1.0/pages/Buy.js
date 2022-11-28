@@ -306,10 +306,6 @@ function classNames(...classes) {
 export default function Buy() {
   return (
     <div>
-      <h2>
-        <Link href="/">Back to Home</Link>
-      </h2>
-
       <Header />
 
       <div className="bg-gray-50">

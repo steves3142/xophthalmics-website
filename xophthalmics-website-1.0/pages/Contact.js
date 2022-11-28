@@ -96,9 +96,6 @@ const footerNavigation = {
 export default function Contact() {
     return (
         <div>
-            <h2>
-                <Link href="/">Back to Home</Link>
-            </h2>
             <Header />
 
             <div className="bg-white">

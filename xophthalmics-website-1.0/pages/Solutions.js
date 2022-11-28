@@ -14,10 +14,6 @@ const stats = [
 export default function Solutions() {
   return (
     <div>
-      <h2>
-        <Link href="/">Back to Home</Link>
-      </h2>
-
       <Header />
 
       <div className="relative bg-white">
