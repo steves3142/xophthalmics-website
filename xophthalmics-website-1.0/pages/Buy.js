@@ -365,7 +365,7 @@ export default function Buy() {
                   <span className="block lg:inline">no commitment.</span>
                 </h1>
                 <p className="mt-4 text-xl text-indigo-100">
-                  Everything you need, nothing you don't. Pick a plan that best suits your business.
+                  Everything you need, nothing you don`t. Pick a plan that best suits your business.
                 </p>
               </div>
 
