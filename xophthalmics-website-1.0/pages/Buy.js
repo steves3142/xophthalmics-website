@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Product_Footer from '../components/Product_Footer';
 import { CheckIcon, XMarkIcon } from '@heroicons/react/20/solid'
 
 const navigation = [
@@ -314,7 +315,7 @@ export default function Buy() {
           <div>
             {/* Pricing section */}
             <div>
-              <div className="bg-indigo-600">
+              <div className="bg-teal-400">
                 {/* Overlapping background */}
                 <div aria-hidden="true" className="absolute bottom-0 hidden h-6 w-full bg-gray-50 lg:block" />
 
@@ -353,7 +354,7 @@ export default function Buy() {
                   {/* Decorative background */}
                   <div
                     aria-hidden="true"
-                    className="absolute inset-0 top-4 bottom-6 left-8 right-8 hidden rounded-tl-lg rounded-tr-lg bg-indigo-700 lg:block"
+                    className="absolute inset-0 top-4 bottom-6 left-8 right-8 hidden rounded-tl-lg rounded-tr-lg bg-teal-500 lg:block"
                   />
 
                   <div className="relative space-y-6 lg:grid lg:grid-cols-3 lg:space-y-0">
