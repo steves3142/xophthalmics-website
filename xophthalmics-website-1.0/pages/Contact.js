@@ -96,7 +96,9 @@ const footerNavigation = {
 export default function Contact() {
     return (
         <div>
-            <Header />
+            <header className="sticky top-0 z-10">
+                <Header />
+            </header>
 
             <div className="bg-white">
                 <Popover as="header" className="relative">

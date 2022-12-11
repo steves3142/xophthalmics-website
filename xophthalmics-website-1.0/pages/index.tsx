@@ -3,7 +3,7 @@ import Head from "next/head";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Footer from "../components/Footer";
-import Testimonial from "../components/Testimonials"; 
+import Testimonial from "../components/Testimonials";
 
 const Home: NextPage = () => {
   return (
@@ -13,17 +13,19 @@ const Home: NextPage = () => {
       </Head>
 
       {/* Header/Nav */}
-      <Header/>
+      <header className="sticky top-0 z-20">
+        <Header />
+      </header>
 
       {/* Hero */}
 
-      <Hero/>
+      <Hero />
 
       {/*Testimonials */}
-      <Testimonial/>
+      <Testimonial />
 
       {/* Footer */}
-      <Footer/>
+      <Footer />
 
 
 

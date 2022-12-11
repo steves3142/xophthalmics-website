@@ -128,7 +128,9 @@ const sales = [
 export default function About() {
   return (
     <div>
-      <Header />
+      <header className="sticky top-0 z-10">
+        <Header />
+      </header>
 
       <div className="bg-white">
         <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8 lg:py-24">

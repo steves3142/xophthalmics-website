@@ -14,7 +14,9 @@ const stats = [
 export default function Solutions() {
   return (
     <div>
-      <Header />
+      <header className="sticky top-0 z-10">
+        <Header />
+      </header>
 
       <div className="relative bg-white">
         <div className="lg:absolute lg:inset-0">
