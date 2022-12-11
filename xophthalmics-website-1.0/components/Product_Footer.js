@@ -50,8 +50,11 @@ export default Product_Footer
 // display: flex;
 // flex-direction: row;
 // align-items: flex-start;
-// padding: 0px 9.45312px 0px 6px;
-// gap: 15.03px;
+// padding: 0px 10px;
+// gap: 20px;
 
-// width: 156.48px;
+// position: absolute;
+// width: 439.3px;
 // height: 21px;
+// left: 42px;
+// top: 9.5px;
