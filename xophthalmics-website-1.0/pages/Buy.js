@@ -306,10 +306,10 @@ function classNames(...classes) {
 export default function Buy() {
   return (
     <div>
-      <div>
-        <div className="sticky top-0">
-          <Header />
-        </div>
+      <header className="sticky top-0 z-10">
+        <Header />
+      </header>
+      <main>
         <div>
           <div>
             {/* Pricing section */}
@@ -840,11 +840,8 @@ export default function Buy() {
             </section>
           </div>
         </div>
-      </div>
-
+      </main>
       <Footer />
-
     </div>
-
   )
 }
