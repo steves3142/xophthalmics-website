@@ -11,6 +11,8 @@ const navigation = [
     { name: 'About Us', href: `${process.env.NEXT_PUBLIC_BASE_URL}/about-us`, current: false },
     { name: 'Contact', href: `${process.env.NEXT_PUBLIC_BASE_URL}/contact`, current: false },
     { name: 'Buy', href: `${process.env.NEXT_PUBLIC_BASE_URL}/buy`, current: false },
+    { name: 'Check Out', href: `${process.env.NEXT_PUBLIC_BASE_URL}/checkout`, current: false },
+
 ]
 
 function classNames(...classes) {

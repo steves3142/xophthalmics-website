@@ -842,7 +842,7 @@ export default function Buy() {
           </div>
         </div>
       </main>
-      <Product_Footer/>
+      {/* <Product_Footer/> */}
       <Footer />
     </div>
   )
