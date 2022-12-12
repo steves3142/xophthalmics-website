@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import ROI_Calculator from '../components/ROI_Calculator';
 import Product_Footer from '../components/Product_Footer';
 import { CheckIcon, XMarkIcon } from '@heroicons/react/20/solid'
 
@@ -843,6 +844,7 @@ export default function Buy() {
         </div>
       </main>
       {/* <Product_Footer/> */}
+      <ROI_Calculator />
       <Footer />
     </div>
   )
