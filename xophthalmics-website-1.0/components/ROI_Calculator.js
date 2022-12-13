@@ -1,12 +1,12 @@
 import React, { useCallback, useState, useEffect } from 'react'
-
+import { CheckIcon, XMarkIcon } from '@heroicons/react/20/solid'
+import Slider from './Slider';
 
 function ROI_Calculator() {
-    let [dollars, setDollars]= useState(50)
 
     // useEffect(() => {
     //     if (dollars > 0 && dollars < 100) {
-             
+
     //     }
     // }, [dollars]);
 
@@ -17,7 +17,7 @@ function ROI_Calculator() {
     //     []
     // ); 
 
-    return(
+    return (
         <section className="flex-row flex-start pt-11 absolute h-96 left-3.5 right-3.5 bg-teal-400 rounded-2xl">
             <div className="flex-none order-none">
                 <div className="container absolute h-75 top-144">
@@ -25,16 +25,8 @@ function ROI_Calculator() {
 
                     </div>
                     <div>
-                        <div>
-                            <input 
-                            className="w-40" 
-                            type="range" 
-                            value={dollars}
-                            onChange={e => setDollars(Number(e.target.value))} 
-                            min={0} 
-                            max={100} 
-                            />
-                        </div>
+
+
                         <div>
 
                         </div>
@@ -42,16 +34,19 @@ function ROI_Calculator() {
                     </div>
                 </div>
                 <div className="absolute h-80 top-52">
+                    <Slider />
+                    <Slider />
+                    <Slider />
                     <p>
-                    ** The information provided here is offered by Xenon Ophthalmics. It should not be construed as tax advice or as a promise for tax savings or reduced tax liability. Individual tax situations may vary. Federal rules and tax guidelines are subject to change. Please consult with your own personal advisers.
+                        ** The information provided here is offered by Xenon Ophthalmics. It should not be construed as tax advice or as a promise for tax savings or reduced tax liability. Individual tax situations may vary. Federal rules and tax guidelines are subject to change. Please consult with your own personal advisers.
                     </p>
                     <br />
                     <p>
-                    * This ROI calculator is provided as-is and for reference only. This is not a guarantee of your actual ROI or results. *
+                        * This ROI calculator is provided as-is and for reference only. This is not a guarantee of your actual ROI or results. *
                     </p>
                     <br />
                     <p>
-                    * You may be eligible to write off the equipment purchase for your practice under Section 179 of the U.S. federal tax Code**. *
+                        * You may be eligible to write off the equipment purchase for your practice under Section 179 of the U.S. federal tax Code**. *
                     </p>
                 </div>
             </div>
